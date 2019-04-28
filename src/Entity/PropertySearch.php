@@ -22,7 +22,7 @@ class PropertySearch
     /*
     * @var  ArrayCollection
     */
-    private $options;
+    private $options = [];
 
     public function __construct() {
         $this->options = new ArrayCollection();
@@ -83,7 +83,7 @@ class PropertySearch
     /**
      * Get /*
      *
-     * @return  ArrayCollection
+     * @return ArrayCollection
      */ 
     public function getOptions()
     {
